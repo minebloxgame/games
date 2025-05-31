@@ -1,6 +1,6 @@
 from ursina import *
 
-app = Ursina(borderless=True)  # Borderless window
+app = Ursina(borderless=False)  # Borderless window
 
 # Create a cube in 3D space
 cube = Entity(model='cube', color=color.azure, scale=2, position=(0,0,0))
